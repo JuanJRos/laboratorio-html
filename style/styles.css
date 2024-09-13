@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.content-box{
+    width: 1280px;
+    border: solid black;
+    padding: 20px;
+    background-color: rosybrown;
+}
+
+.navbar{
+    width: 1280px;
+    display: flex;
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.navbar a{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration:none;
+    color:black
+}
